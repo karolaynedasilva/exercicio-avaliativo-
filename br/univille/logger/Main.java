@@ -12,7 +12,7 @@ public class Main{
         Logger consoleLogger = LoggerFactory.onConsole();
 
         consoleLogger.log(Level.DEBUG,   "Mensagem de debug.");
-        consoleLogger.log(Level.WARNING, "Atenção! Isso é um aviso.");
+        consoleLogger.log(Level.WARNING, "Atenção, Isso é um aviso!");
         consoleLogger.log(Level.ERROR,  "Erro detectado!");
 
     }
